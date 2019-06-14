@@ -1,0 +1,53 @@
+#active{
+  color: #ffe600;
+}
+a{
+  color: gray;
+  text-decoration: none;
+}
+h1{
+  font-size:50px;
+  text-align:center;
+  margin: 50px;
+  border-bottom:0px dotted gray;
+  padding: 40px;
+ }
+h2{
+   color: #007bff;
+   font-size: 30px;
+   margin-top: 10px;
+ }
+.saw{
+  color: gray;
+}
+#grid ol{
+  border-right: 3px dotted gray;
+  width: 130px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+#article{
+  padding-left: 0px;
+}
+@media(max-width:700px) {
+  #grid{
+    display: block;
+  }
+  #grid ol{
+    border-right: none;
+    margin-top: 30px;
+  }
+}
+body{
+  font-family: "helvetica", sans-serif;
+}
+ol.circle{
+  list-style-type: disc;
+  line-height: 1.6;
+}
+div.b{
+  font-family: "Noto Sans CJK KR", sans-serif;
+  font-size: 13px;
+}
